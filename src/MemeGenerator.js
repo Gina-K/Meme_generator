@@ -22,7 +22,25 @@ class MemeGenerator extends Component {
 
     render() {
         return (
-            <h2>Meme Generator</h2>
+            <div>
+                <form className="meme-form">
+                    <input
+                        type="text"
+                        name="topText"
+                        placeholder="Enter a top text..."
+                        value={this.state.topText}
+                        onChange={this.changeHandler}/>
+
+                    <input
+                        type="text"
+                        name="bottomText"
+                        placeholder="...and a bottom text"
+                        value={this.state.bottomText}
+                        onChange={this.changeHandler}/>
+
+                    <button>Gen</button>
+                </form>
+            </div>
         );
     }
 }
