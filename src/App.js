@@ -1,9 +1,15 @@
-import React from 'react';
+import React from "react";
+import Header from "./Header";
+import MemeGenerator from "./MemeGenerator";
 
 function App() {
-  return (
-        <h3>Some content</h3>
-  );
+    return (
+        <div>
+            <Header/>
+            <MemeGenerator />
+        </div>
+
+    );
 }
 
 export default App;
