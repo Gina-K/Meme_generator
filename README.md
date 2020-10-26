@@ -1,7 +1,8 @@
 # Meme Generator on React.js
 
 The capstone project on the *Bob Ziroll's React course*. No practical use, education purpose only (and also some fun :).
-Working version: 
+
+[Working version](https://gina-k.github.io/Meme_generator/)
 
 
 Note: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
